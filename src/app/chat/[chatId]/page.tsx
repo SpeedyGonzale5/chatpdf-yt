@@ -66,7 +66,7 @@ return (
     </div>
 
     {/* chat component */}
-    <div className="flex-2 overflow-hidden border-l-4 border-l-slate-200"> {/* Remove scroll here if it's in the component */}
+    <div className="flex-1 overflow-hidden border-l-4 border-l-slate-200"> {/* Remove scroll here if it's in the component */}
       <ChatComponent chatId={parseInt(chatId)} />
     </div>
   </div>
